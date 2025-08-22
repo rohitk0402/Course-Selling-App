@@ -11,7 +11,7 @@ import AdminSignup from './admin/AdminSignup';
 import AdminLogin from './admin/AdminLogin';
 import CourseCreate from './admin/CourseCreate';
 import DashBorad from './admin/DashBorad';
-import UpdateCourse from './admin/updatecourse';
+import UpdateCourse from './admin/UpdateCourse';
 import OurCourse from './admin/OurCourse';
 import { Navigate } from 'react-router-dom';
 
