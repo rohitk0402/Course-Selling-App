@@ -24,7 +24,7 @@ app.use(fileUpload({
 
 app.use(cors(
   {
-    origin:process.env.Frontend_url,
+    origin:https://course-selling-app-2-6vt3.onrender.com ,
     credentials:true,
     methods:["GET","POST","PUT","DELETE"],
     allowedHeader:["Context-Type","Authorization"],
