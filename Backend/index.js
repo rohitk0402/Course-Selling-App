@@ -24,10 +24,10 @@ app.use(fileUpload({
 
 app.use(cors(
   {
-    origin:https://course-selling-app-2-6vt3.onrender.com ,
+    origin:"https://course-selling-app-2-6vt3.onrender.com",
     credentials:true,
     methods:["GET","POST","PUT","DELETE"],
-    allowedHeader:["Context-Type","Authorization"],
+    allowedHeader:["Content-Type","Authorization"],
   
   }
 ))
